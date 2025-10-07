@@ -5,6 +5,8 @@
 import argparse
 import logging
 
+# Install from here: https://github.com/simonwiles/xmltotabular
+# pip3 install "git+https://github.com/simonwiles/xmltotabular.git"
 from xmltotabular import XmlCollectionToTabular
 
 
