@@ -89,7 +89,6 @@ def replace_missing_entities(doc):
     doc = doc.replace("&hearts;", "&#x2665;")
     return doc
 
-
 def main():
     """Command-line entry-point."""
     arg_parser = argparse.ArgumentParser(description="Description: {}".format(__file__))
